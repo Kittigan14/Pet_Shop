@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Kanit:wght@300&family=Lexend+Deca&family=Poppins&family=Prompt&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.table {
+
+    .bs-price {
+        text-align: right;
+    }
+
+    .bs-center {
+        text-align: center;
+    }
+}
+
+.panel {
+    margin-top: 60px;
+
+    .panel-body {
+
+        form {
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            input {
+                width: 20%;
+                margin: 0 10px 0 0;
+            }
+
+            button {
+                margin: 10px;
+            }
+
+        }
+
+    }
+}
+
+#table-update {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#btn-update {
+    button {
+        margin: 10px;
+    }
+}
+
+.pic-pets {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        transform: scale(1.5);
+        transition: all .5s ease;
+        -webkit-filter: drop-shadow(5px 5px 5px #cccccc);
+        filter: drop-shadow(5px 5px 5px #cccccc);
+    }
+
+    img:hover {
+        transform: scale(1.6);
+    }
+}
+
+#btn-update {
+
+    .btn-danger a {
+        color: #e8e8e8;
+        text-decoration: none;
+    }
+
+}
